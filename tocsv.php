@@ -2,7 +2,7 @@
 	$file=file_get_contents("source.dat");
 	$mdfile=fopen("README.md","w+");
 	fwrite($mdfile, "金沢市のゴミの予定をGoogleカレンダーへ！".PHP_EOL);
-	fwrite($mdfile, "ご利用の地域のCSVをGoogleカレンダーにインポートしてください".PHP_EOL);
+	fwrite($mdfile, "ご利用の地域をクリックしてをGoogleカレンダーにインポートしてください".PHP_EOL);
 
 	$row=explode(PHP_EOL, $file);
 	foreach ($row as $key => $value) {
@@ -22,7 +22,7 @@ eot;
 fwrite($fp, $ical);
 
 			fwrite($mdfile, "-$value地区".PHP_EOL);
-			fwrite($mdfile, "[$value](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/$value.csv)");
+			fwrite($mdfile, "[$value](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/$value.ical)");
 			fwrite($mdfile, PHP_EOL.PHP_EOL);
 		}else{
 			if ($cell[0]=="Subject"){
