@@ -1,11 +1,10 @@
--金沢市地域別ゴミ収集日iCal
+# 金沢市地域別ゴミ収集日iCal
 
-ご利用の地域をクリックするとGoogleカレンダーにインポートできる便利なページです。
+## ご利用の地域をクリックするとGoogleカレンダーにインポートできる便利なページです。
 
 
 
 ゴミ収集日情報は金沢市が公開している情報です。
-
 この情報には、万全を尽くしていますが、ミスがない保証はありませんのでご了承ください。
 -
 [浅野](https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/浅野.ics)
