@@ -9,6 +9,7 @@
 		$cell=explode(",", $value);
 		if (count($cell)==1){
 			if ($fp!==null){
+				fwrite($fp, "BEGIN:VCALENDAR");	
 				fclose($fp);				
 			}
 			$fp=fopen("ical/".$value.".ical", "w+");
@@ -32,7 +33,7 @@ eot;
 fwrite($fp, $ical);
 
 			fwrite($mdfile, "-$value地区".PHP_EOL);
-			fwrite($mdfile, "[$value](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/$value.ical)");
+			fwrite($mdfile, "[$value](https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/$value.ical)");
 			fwrite($mdfile, PHP_EOL.PHP_EOL);
 		}else{
 			if ($cell[0]=="Subject"){
