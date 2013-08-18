@@ -9,7 +9,7 @@
 		$cell=explode(",", $value);
 		if (count($cell)==1){
 			if ($fp!==null){
-				fwrite($fp, "BEGIN:VCALENDAR");	
+				fwrite($fp, "END:VCALENDAR");	
 				fclose($fp);				
 			}
 			$fp=fopen("ical/".$value.".ical", "w+");
