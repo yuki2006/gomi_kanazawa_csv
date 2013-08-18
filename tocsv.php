@@ -2,14 +2,16 @@
 	$file=file_get_contents("source.dat");
 	$mdfile=fopen("README.md","w+");
 $head=<<<eot
->金沢市地域別ゴミ収集日カレンダー
+-金沢市地域別ゴミ収集日iCal
 
 ご利用の地域をクリックするとGoogleカレンダーにインポートできる便利なページです。
 
-プログラムは、オープンソースで公開し、ライセンスはGPL v3 となっております。ただし、ゴミ収集日情報は金沢市が公開している情報です。
 
-この情報は、万全を尽くしていますが、ミスがない保証はありませんのでご了承ください。
-	
+
+ゴミ収集日情報は金沢市が公開している情報です。
+
+この情報には、万全を尽くしていますが、ミスがない保証はありませんのでご了承ください。
+
 eot;
 	fwrite($mdfile, $head);
 
@@ -21,7 +23,7 @@ eot;
 				fwrite($fp, "END:VCALENDAR");	
 				fclose($fp);				
 			}
-			$fp=fopen("ical/".$value.".ical", "w+");
+			$fp=fopen("ics/".$value.".ics", "w+");
 $ical=<<<eot
 BEGIN:VCALENDAR
 VERSION:2.0
@@ -43,7 +45,7 @@ eot;
 fwrite($fp, $ical);
 
 			fwrite($mdfile, "-$value地区".PHP_EOL);
-			fwrite($mdfile, "[$value](https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/$value.ical)");
+			fwrite($mdfile, "[$value](https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics)");
 			fwrite($mdfile, PHP_EOL.PHP_EOL);
 		}else{
 			if ($cell[0]=="Subject"){
