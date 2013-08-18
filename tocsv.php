@@ -41,6 +41,7 @@ END:VEVENT
 eot;
 
 			fwrite($fp, $ical);
+			fwrite($fp, PHP_EOL);
 		}
 	}
 	fclose($mdfile);
