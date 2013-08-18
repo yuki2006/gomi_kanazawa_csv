@@ -27,6 +27,7 @@ TZOFFSETTO:+0900
 TZNAME:JST
 END:STANDARD
 END:VTIMEZONE
+
 eot;
 fwrite($fp, $ical);
 
@@ -47,10 +48,10 @@ DTSTART;VALUE=DATE:$date
 SUMMARY:$daylabel
 DTEND;VALUE=DATE:$date
 END:VEVENT
+
 eot;
 
 			fwrite($fp, $ical);
-			fwrite($fp, PHP_EOL);
 		}
 	}
 	fclose($mdfile);
