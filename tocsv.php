@@ -9,9 +9,10 @@
 				fclose($fp);				
 			}
 			$fp=fopen("csv/".$value.".csv", "w+");
-			fwrite($mdfile, "-$value".PHP_EOL);
-			fwrite($mdfile, "[$value](https://github.com/yuki2006/gomi_kanazawa_csv/blob/master/%E9%9E%8D%E6%9C%88.csv)");
-			fwrite($mdfile, PHP_EOL);
+			fwrite($mdfile, "金沢市のゴミの予定をGoogleカレンダーへ！".PHP_EOL);
+			fwrite($mdfile, "-$value地区".PHP_EOL);
+			fwrite($mdfile, "[$value](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/$value.csv)");
+			fwrite($mdfile, PHP_EOL.PHP_EOL);
 		}else{
 			fwrite($fp, $value);
 			fwrite($fp, PHP_EOL);
