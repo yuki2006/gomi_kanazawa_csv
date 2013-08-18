@@ -1,215 +1,215 @@
 金沢市のゴミの予定をGoogleカレンダーへ！
 ご利用の地域のCSVをGoogleカレンダーにインポートしてください
 -
-[浅野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/浅野.csv)
+[浅野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/浅野.csv)
 
 -
-[浅野川](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/浅野川.csv)
+[浅野川](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/浅野川.csv)
 
 -
-[朝日](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/朝日.csv)
+[朝日](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/朝日.csv)
 
 -
-[粟崎](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/粟崎.csv)
+[粟崎](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/粟崎.csv)
 
 -
-[医王山](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/医王山.csv)
+[医王山](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/医王山.csv)
 
 -
-[泉野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/泉野.csv)
+[泉野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/泉野.csv)
 
 -
-[内川](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/内川.csv)
+[内川](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/内川.csv)
 
 -
-[上平](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/上平.csv)
+[上平](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/上平.csv)
 
 -
-[扇台](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/扇台.csv)
+[扇台](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/扇台.csv)
 
 -
-[大浦](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/大浦.csv)
+[大浦](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/大浦.csv)
 
 -
-[大野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/大野.csv)
+[大野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/大野.csv)
 
 -
-[押野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/押野.csv)
+[押野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/押野.csv)
 
 -
-[金石](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/金石.csv)
+[金石](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/金石.csv)
 
 -
-[菊川](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/菊川.csv)
+[菊川](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/菊川.csv)
 
 -
-[木曳野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/木曳野.csv)
+[木曳野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/木曳野.csv)
 
 -
-[清瀬](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/清瀬.csv)
+[清瀬](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/清瀬.csv)
 
 -
-[倉ヶ嶽](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/倉ヶ嶽.csv)
+[倉ヶ嶽](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/倉ヶ嶽.csv)
 
 -
-[鞍月](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/鞍月.csv)
+[鞍月](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/鞍月.csv)
 
 -
-[小坂](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/小坂.csv)
+[小坂](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/小坂.csv)
 
 -
-[小立野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/小立野.csv)
+[小立野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/小立野.csv)
 
 -
-[此花](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/此花.csv)
+[此花](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/此花.csv)
 
 -
-[駒帰](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/駒帰.csv)
+[駒帰](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/駒帰.csv)
 
 -
-[犀川](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/犀川.csv)
+[犀川](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/犀川.csv)
 
 -
-[材木](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/材木.csv)
+[材木](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/材木.csv)
 
 -
-[四十万](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/四十万.csv)
+[四十万](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/四十万.csv)
 
 -
-[十一屋](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/十一屋.csv)
+[十一屋](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/十一屋.csv)
 
 -
-[新神田](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/新神田.csv)
+[新神田](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/新神田.csv)
 
 -
-[新竪](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/新竪.csv)
+[新竪](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/新竪.csv)
 
 -
-[西南部](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/西南部.csv)
+[西南部](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/西南部.csv)
 
 -
-[大徳](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/大徳.csv)
+[大徳](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/大徳.csv)
 
 -
-[田上](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/田上.csv)
+[田上](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/田上.csv)
 
 -
-[竹又](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/竹又.csv)
+[竹又](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/竹又.csv)
 
 -
-[俵](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/俵.csv)
+[俵](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/俵.csv)
 
 -
-[千坂](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/千坂.csv)
+[千坂](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/千坂.csv)
 
 -
-[土子原](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/土子原.csv)
+[土子原](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/土子原.csv)
 
 -
-[坪野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/坪野.csv)
+[坪野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/坪野.csv)
 
 -
-[戸板](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/戸板.csv)
+[戸板](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/戸板.csv)
 
 -
-[富樫](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/富樫.csv)
+[富樫](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/富樫.csv)
 
 -
-[長坂台](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/長坂台.csv)
+[長坂台](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/長坂台.csv)
 
 -
-[長田](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/長田.csv)
+[長田](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/長田.csv)
 
 -
-[長土塀](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/長土塀.csv)
+[長土塀](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/長土塀.csv)
 
 -
-[長町](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/長町.csv)
+[長町](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/長町.csv)
 
 -
-[中村](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/中村.csv)
+[中村](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/中村.csv)
 
 -
-[西](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/西.csv)
+[西](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/西.csv)
 
 -
-[額](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/額.csv)
+[額](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/額.csv)
 
 -
-[野町](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/野町.csv)
+[野町](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/野町.csv)
 
 -
-[花園](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/花園.csv)
+[花園](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/花園.csv)
 
 -
-[馬場](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/馬場.csv)
+[馬場](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/馬場.csv)
 
 -
-[東浅川](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/東浅川.csv)
+[東浅川](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/東浅川.csv)
 
 -
-[瓢箪](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/瓢箪.csv)
+[瓢箪](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/瓢箪.csv)
 
 -
-[平栗](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/平栗.csv)
+[平栗](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/平栗.csv)
 
 -
-[伏見台](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/伏見台.csv)
+[伏見台](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/伏見台.csv)
 
 -
-[不動寺](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/不動寺.csv)
+[不動寺](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/不動寺.csv)
 
 -
-[芳斉](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/芳斉.csv)
+[芳斉](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/芳斉.csv)
 
 -
-[牧山](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/牧山.csv)
+[牧山](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/牧山.csv)
 
 -
-[松ヶ枝](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/松ヶ枝.csv)
+[松ヶ枝](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/松ヶ枝.csv)
 
 -
-[味噌蔵](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/味噌蔵.csv)
+[味噌蔵](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/味噌蔵.csv)
 
 -
-[三谷](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/三谷.csv)
+[三谷](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/三谷.csv)
 
 -
-[緑（二塚）](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/緑（二塚）.csv)
+[緑（二塚）](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/緑（二塚）.csv)
 
 -
-[南小立野](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/南小立野.csv)
+[南小立野](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/南小立野.csv)
 
 -
-[三和](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/三和.csv)
+[三和](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/三和.csv)
 
 -
-[三馬](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/三馬.csv)
+[三馬](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/三馬.csv)
 
 -
-[森本](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/森本.csv)
+[森本](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/森本.csv)
 
 -
-[森山](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/森山.csv)
+[森山](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/森山.csv)
 
 -
-[諸江](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/諸江.csv)
+[諸江](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/諸江.csv)
 
 -
-[安原（緑団地含む）](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/安原（緑団地含む）.csv)
+[安原（緑団地含む）](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/安原（緑団地含む）.csv)
 
 -
-[弥生](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/弥生.csv)
+[弥生](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/弥生.csv)
 
 -
-[夕日寺](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/夕日寺.csv)
+[夕日寺](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/夕日寺.csv)
 
 -
-[湯涌](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/湯涌.csv)
+[湯涌](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/湯涌.csv)
 
 -
-[米泉](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/米泉.csv)
+[米泉](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/米泉.csv)
 
 -
-[米丸](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/米丸.csv)
+[米丸](https://www.google.com/calendar/render?cid=https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/米丸.csv)
 
