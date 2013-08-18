@@ -1,8 +1,14 @@
 <?php
 	$file=file_get_contents("source.dat");
 	$mdfile=fopen("README.md","w+");
-	fwrite($mdfile, "金沢市のゴミの予定をGoogleカレンダーへ！".PHP_EOL);
-	fwrite($mdfile, "ご利用の地域をクリックしてをGoogleカレンダーにインポートしてください".PHP_EOL);
+$head=<<<eot
+ご利用の地域をクリックするとGoogleカレンダーにインポートできる便利なページです。
+
+プログラムはGPL v3 となっておりますが、ゴミ収集情報は金沢市が公開している情報です。
+
+この情報は、万全を尽くしていますが、ミスがない保証はありませんのでご了承ください。	
+eot;
+	fwrite($mdfile, $head);
 
 	$row=explode(PHP_EOL, $file);
 	foreach ($row as $key => $value) {

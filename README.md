@@ -1,6 +1,8 @@
-金沢市のゴミの予定をGoogleカレンダーへ！
-ご利用の地域をクリックしてをGoogleカレンダーにインポートしてください
--
+ご利用の地域をクリックするとGoogleカレンダーにインポートできる便利なページです。
+
+プログラムはGPL v3 となっておりますが、ゴミ収集情報は金沢市が公開している情報です。
+
+この情報は、万全を尽くしていますが、ミスがない保証はありませんのでご了承ください。	-
 [浅野](https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/浅野.ical)
 
 -
