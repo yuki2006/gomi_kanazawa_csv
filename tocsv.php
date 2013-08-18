@@ -41,13 +41,15 @@ fwrite($fp, $ical);
 			}
 
 			$tmp=explode("/", $cell[1]);
-$date=sprintf("%04d",$tmp[0]).	sprintf("%02d",$tmp[1]).sprintf("%02d",$tmp[2]);	
+$date1=sprintf("%04d",$tmp[0]).	sprintf("%02d",$tmp[1]).sprintf("%02d",$tmp[2]);	
+$date2=sprintf("%04d",$tmp[0]).	sprintf("%02d",$tmp[1]).sprintf("%02d",$tmp[2]+1);	
+
 $daylabel=$cell[0]."ゴミの日";
 $ical=<<<eot
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:$date
+DTSTART;VALUE=DATE:$date1
 SUMMARY:$daylabel
-DTEND;VALUE=DATE:$date
+DTEND;VALUE=DATE:$date2
 END:VEVENT
 
 eot;
