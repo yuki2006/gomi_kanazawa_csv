@@ -19,6 +19,7 @@ VERSION:2.0
 PRODID:-//ono yuuki/Code For Kanazawa//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:{$value}地区のゴミの日
+X-WR-CALDESC:石川県金沢市の{$value}地区に関する、ゴミの日のカレンダーです。
 BEGIN:VTIMEZONE
 TZID:Japan
 BEGIN:STANDARD

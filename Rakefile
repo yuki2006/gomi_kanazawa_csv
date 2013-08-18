@@ -9,6 +9,5 @@ task :deploy do
 	sh "nkf -Lw --overwrite ical/*.ical"
 	system "git commit -a"	
 	sh "git push"
-	sh "git checkout master"
 end
 
