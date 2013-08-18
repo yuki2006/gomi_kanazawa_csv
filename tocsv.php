@@ -22,7 +22,7 @@ eot;
 fwrite($fp, $ical);
 
 			fwrite($mdfile, "-$value地区".PHP_EOL);
-			fwrite($mdfile, "[$value](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/csv/$value.csv)");
+			fwrite($mdfile, "[$value](https://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ical/$value.csv)");
 			fwrite($mdfile, PHP_EOL.PHP_EOL);
 		}else{
 			if ($cell[0]=="Subject"){
