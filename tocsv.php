@@ -39,7 +39,7 @@ $inData.=<<<eot
 <li>{$value}地区 <br />
 <a href='https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>Googleカレンダーへ追加</a>
 <br />
- <a href='http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>iCalファイル</a>
+ <a href='webcal://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>iCalファイル</a>
 
 <br />
 <br />
