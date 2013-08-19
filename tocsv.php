@@ -1,18 +1,10 @@
 <?php
+	$template=file_get_contents("template.html");
 	$file=file_get_contents("source.dat");
-	$mdfile=fopen("README.md","w+");
-$head=<<<eot
-# 金沢市地域別ゴミ収集日iCal
 
-## ご利用の地域をクリックするとGoogleカレンダーにインポートできる便利なページです。
+$inData="";
 
-
-
-ゴミ収集日情報は金沢市が公開している情報です。
-この情報には、万全を尽くしていますが、ミスがない保証はありませんのでご了承ください。
-
-eot;
-	fwrite($mdfile, $head);
+	$mdfile=fopen("index.html","w+");
 
 	$row=explode(PHP_EOL, $file);
 	foreach ($row as $key => $value) {
@@ -43,9 +35,11 @@ END:VTIMEZONE
 eot;
 fwrite($fp, $ical);
 
-			fwrite($mdfile, "-$value地区".PHP_EOL);
-			fwrite($mdfile, "[$value](https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics)");
-			fwrite($mdfile, PHP_EOL.PHP_EOL);
+			$inData.="<ul>";
+$inData.=<<<eot
+<li>{$value}地区 
+<a href='https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>Googleカレンダー</a></li>
+eot;
 		}else{
 			if ($cell[0]=="Subject"){
 				continue;
@@ -68,6 +62,9 @@ eot;
 			fwrite($fp, $ical);
 		}
 	}
-	fclose($mdfile);
+	$template=str_replace("%DATA%" ,$inData, $template);
+
+	file_put_contents("index.html", $template);
+
 
 ?>
