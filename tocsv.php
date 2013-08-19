@@ -36,7 +36,7 @@ eot;
 fwrite($fp, $ical);
 
 $inData.=<<<eot
-<li>{$value}地区 <br />
+<li><span style="font-size:1.2em">{$value}地区</span><br />
 <a href='https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>Googleカレンダーへ追加</a>
 <br />
  <a href='webcal://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>
