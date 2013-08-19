@@ -2,7 +2,7 @@
 	$template=file_get_contents("template.html");
 	$file=file_get_contents("source.dat");
 
-$inData="";
+$inData="<ul>";
 
 	$mdfile=fopen("index.html","w+");
 
@@ -35,7 +35,6 @@ END:VTIMEZONE
 eot;
 fwrite($fp, $ical);
 
-			$inData.="<ul>";
 $inData.=<<<eot
 <li>{$value}地区 
 <a href='https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>Googleカレンダー</a></li>
@@ -62,6 +61,7 @@ eot;
 			fwrite($fp, $ical);
 		}
 	}
+	$inData.="</ul>";
 	$template=str_replace("%DATA%" ,$inData, $template);
 
 	file_put_contents("index.html", $template);
