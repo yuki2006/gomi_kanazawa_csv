@@ -2,7 +2,7 @@
 	$template=file_get_contents("template.html");
 	$file=file_get_contents("source.dat");
 
-$inData="<ul>";
+$inData="<table style='border : 1px' ><tbody>";
 
 	$mdfile=fopen("index.html","w+");
 
@@ -36,16 +36,16 @@ eot;
 fwrite($fp, $ical);
 
 $inData.=<<<eot
-<li><span style="font-size:1.2em">{$value}地区</span><br />
-<a href='https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>Googleカレンダーへ追加</a>
-<br />
+<tr>
+<th>
+<span style="font-size:1.2em">{$value}地区</span></th>
+<td><a href='https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>Googleカレンダーへ追加</a>
+</td>
+<td>
  <a href='webcal://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>
  iCalファイル</a>
-
-<br />
-<br />
-
-</li>
+</td>
+</tr>
 eot;
 		}else{
 			if ($cell[0]=="Subject"){
@@ -69,7 +69,7 @@ eot;
 			fwrite($fp, $ical);
 		}
 	}
-	$inData.="</ul>";
+	$inData.="</tbody></table>";
 	$template=str_replace("%DATA%" ,$inData, $template);
 
 	file_put_contents("index.html", $template);
