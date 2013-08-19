@@ -11,5 +11,7 @@ task :deploy do
 	sh "git checkout gh-pages"
 	sh "git merge master"
 	sh "git push"
+	sh "git checkout master"
+
 end
 
