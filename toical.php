@@ -2,11 +2,14 @@
 	$template=file_get_contents("template.html");
 	$file=file_get_contents("source.dat");
 
+	$icalList=array();
+
 $inData="<table style='border : 1px' ><tbody>";
 
 	$mdfile=fopen("index.html","w+");
 
 	$row=explode(PHP_EOL, $file);
+	$fp=null;
 	foreach ($row as $key => $value) {
 		$cell=explode(",", $value);
 		if (count($cell)==1){
@@ -14,7 +17,11 @@ $inData="<table style='border : 1px' ><tbody>";
 				fwrite($fp, "END:VCALENDAR");	
 				fclose($fp);				
 			}
-			$fp=fopen("ics/".$value.".ics", "w+");
+			$file="caljson/".$value.".json";
+
+			$file="ics/".$value.".ics";
+			// $icalList[]=$file;
+			$fp=fopen($file, "w+");
 $ical=<<<eot
 BEGIN:VCALENDAR
 VERSION:2.0
@@ -36,14 +43,19 @@ eot;
 fwrite($fp, $ical);
 
 $inData.=<<<eot
+
+
 <tr>
 <th>
 <span style="font-size:1.2em">{$value}地区</span></th>
+<td><a href='cals.html?label=$value'>カレンダーの表示</a>
+</td>
+
 <td><a href='https://www.google.com/calendar/render?cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>Googleカレンダーへ追加</a>
 </td>
 <td>
  <a href='webcal://raw.github.com/yuki2006/gomi_kanazawa_csv/master/ics/$value.ics'>
- iCalファイル</a>
+ Mac OSカレンダー</a>
 </td>
 </tr>
 eot;
@@ -70,6 +82,13 @@ eot;
 		}
 	}
 	$inData.="</tbody></table>";
+	//URLが長すぎてできず
+	// $allDataURL="https://www.google.com/calendar/render?";
+	// foreach ($icalList as $key => $value) {
+	// 	$allDataURL.="&cid=http://raw.github.com/yuki2006/gomi_kanazawa_csv/master/".$value;
+	// }
+	// $template=str_replace("%ALLDATA_URL%" ,$allDataURL, $template);
+
 	$template=str_replace("%DATA%" ,$inData, $template);
 
 	file_put_contents("index.html", $template);

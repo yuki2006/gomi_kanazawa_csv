@@ -1,2 +1,6 @@
 table { border : 1px outset black;font-size: 1.2em; }
 th, td { border : 1px inset black;text-align: left;padding: 5px; }
+
+#calendar .fc-header-center{
+	vertical-align: middle;
+}
