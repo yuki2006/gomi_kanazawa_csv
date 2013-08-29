@@ -50,8 +50,10 @@ $(function() {
 			},
 			// ボタン文字列
 			buttonText: {
-				prev: '&lsaquo;', // <
-				next: '&rsaquo;', // >
+//				prev: '&lsaquo;', // <
+//				next: '&rsaquo;', // >
+				prev: '前の月', // <
+				next: '次の月', // >
 				prevYear: '&laquo;', // <<
 				nextYear: '&raquo;', // >>
 				today: '今日',
